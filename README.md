@@ -25,3 +25,5 @@ It contains the following information:
 4. Extendible hash has a separate insert function which would insert any given arbitrary “index record” into the extendible hash.
 5. Extendible hash has a seperate intuitive print function which would print the whole print all the records in the bucket with their hash prefix.
 
+To know about how to execute the code, have a look at README.txt file.
+
