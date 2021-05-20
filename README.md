@@ -1,5 +1,5 @@
 # Extendible-hashing
-Implementation of extendible hashing to store the dataset. Dataset is the sales record of a department store. Dataset is being given as a input in the file where each line in 
+Implementation of extendible hashing to store the dataset. Dataset is the sales record of a department store. Dataset is being given as an input in the file where each line in 
 the file represents a record and contains the four fields: transaction id(unique integer), transaction sale amount(integer), customer name(string of size 3), and item category(integer). Hashing is done on the transaction id. Ideally, the buckets in the extendible hash should be stored in the secondary memory. However, for the purpose of
 this project, they are stored in “Simulated Secondary Memory". The directory or bucket address table of the extendible hash contain the hash prefix and pointer to the
 bucket sitting in “Simulated Secondary Memory".
